@@ -33,6 +33,11 @@ div.offline {
   background-color: brown;
 }
   /* these are where the channels should go */
-.channelBody {
-  background-color: pink;
+
+div.firstChannel,
+div.secondChannel
+div.thirdChannel,
+div.fourthChannel, {
+  display: inline-block;
+  text-align: center;
 }
