@@ -1,5 +1,38 @@
+
+/* sideBar stuff */
+
 div.sideBar {
-  color: blue;
-  background: red;
+background-color: red;
+}
+.logo {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+/* main area stuff */
+
+  /* these are the 3 top buttons */
+
+div.mainContent {
+  text-align: center;
+}
+div.tri {
+  text-align: center;
+  background-color: cyan;
+  display: block;
+}
+div.all {
   background-color: green;
+}
+div.online {
+  background-color: blue;
+}
+div.offline {
+  background-color: brown;
+}
+  /* these are where the channels should go */
+.channelBody {
+  background-color: pink;
 }
