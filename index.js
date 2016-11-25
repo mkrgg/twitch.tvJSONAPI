@@ -10,8 +10,6 @@ $(document).ready(function() {
     success: function(data) {
       if (data.stream === null) {
         $(".firstChannelStatus").append("<p>Offline</p>");
-        $(".firstChannelLogo").append("<img src="+ data.stream.channel.logo +">")
-
       } else {
         $(".firstChannelLogo").append("<img src="+ data.stream.channel.logo +">")
         $(".firstChannelName").append(data.stream.channel.display_name);
